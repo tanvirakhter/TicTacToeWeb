@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Helvetica';
+}
+
+.background {
+    background-color: rgb(1, 17, 37);
+    height: 110vh;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+  
+.title {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 3%;
+}
+
+.display {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.hide {
+    display: none;
+}
+
+.container {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    max-width: 300px;
+
+}
+
+.tile {
+    border: 1px solid white;
+    min-width: 100px;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.playerX {
+    color: #ffc400;
+}
+
+.playerO {
+    color: #38ff8b;
+}
+
+.controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+}
+
+.controls button {
+    color: white;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    margin-left: 1em;
+    cursor: pointer;
+}
+
+.restart {
+    background-color: #498AFB;
+    margin-bottom: 4%
+}
+
+#reset {
+    background-color: #FF3860;
+    margin-bottom: 4%;
+}
+
+.footer
+{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 2%;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+  }
+  
+
+
+  /* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .fa:hover {
+    width: 70px;
+    opacity: 0.7;
+  }
+  
+
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    transition: width .5s;
+  }
+  
+
+  .fa-instagram {
+    background: #125688;
+    color: white;
+    transition: width .5s;
+  }
+
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+    transition: width .5s;
+  }
+
+
+
+
